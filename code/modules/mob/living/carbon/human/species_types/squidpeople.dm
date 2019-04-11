@@ -9,7 +9,6 @@
     no_equip = list(SLOT_SHOES)
     skinned_type = /obj/item/stack/sheet/animalhide/human
     disliked_food = FRIED
-//	nojumpsuit = TRUE
 
 /mob/living/carbon/human/species/squid
     race = /datum/species/squid
@@ -33,8 +32,3 @@
         . = capitalize(squid_name(genderToFind))
         if(!findname(.))
             break
-
-/datum/mood_event/squid //april 1st only
-    description = "<span class='nicegreen'>Spongebob isn't on this station with me.</span>\n" //Used for syndies, nukeops etc so they can focus on their goals
-    mood_change = 0
-    hidden = FALSE

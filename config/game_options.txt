@@ -428,7 +428,7 @@ SILICON_MAX_LAW_AMOUNT 12
 
 ## Roundstart Races
 ##-------------------------------------------------------------------------------------------
-## Uncommenting races will allow them to be choosen at roundstart while join_with_muntant_race is on. You'll need at least one.
+## Uncommenting races will allow them to be choosen at roundstart while join_with_mutant_race is on. You'll need at least one.
 
 ## You probably want humans on your space station, but technically speaking you can turn them off without any ill effect
 ROUNDSTART_RACES human
@@ -439,7 +439,6 @@ ROUNDSTART_RACES lizard
 #ROUNDSTART_RACES moth
 ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
-ROUNDSTART_RACES squid
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
@@ -467,6 +466,7 @@ ROUNDSTART_RACES ethereal
 ## Roundstart no-reset races
 ## Races defined here will not cause existing characters to be reset to human if they currently have a non-roundstart species defined.
 #ROUNDSTART_NO_HARD_CHECK felinid
+#ROUNDSTART_NO_HARD_CHECK squid
 
 ## Uncomment to give players the choice of joining as a human with mutant bodyparts before they join the game
 #JOIN_WITH_MUTANT_HUMANS
